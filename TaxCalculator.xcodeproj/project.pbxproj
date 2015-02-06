@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		43F69B321A6C23DA00722282 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B311A6C23DA00722282 /* main.m */; };
 		43F69B351A6C23DA00722282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B341A6C23DA00722282 /* AppDelegate.m */; };
-		43F69B381A6C23DA00722282 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B371A6C23DA00722282 /* ViewController.m */; };
 		43F69B3B1A6C23DA00722282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F69B391A6C23DA00722282 /* Main.storyboard */; };
 		43F69B3D1A6C23DA00722282 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F69B3C1A6C23DA00722282 /* Images.xcassets */; };
 		43F69B401A6C23DA00722282 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43F69B3E1A6C23DA00722282 /* LaunchScreen.xib */; };
 		43F69B4C1A6C23DA00722282 /* TaxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B4B1A6C23DA00722282 /* TaxCalculatorTests.m */; };
+		43F69B571A6C23EE00722282 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B561A6C23EE00722282 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		43F69B311A6C23DA00722282 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43F69B331A6C23DA00722282 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43F69B341A6C23DA00722282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43F69B361A6C23DA00722282 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		43F69B371A6C23DA00722282 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		43F69B3A1A6C23DA00722282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43F69B3C1A6C23DA00722282 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		43F69B3F1A6C23DA00722282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		43F69B451A6C23DA00722282 /* TaxCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F69B4A1A6C23DA00722282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43F69B4B1A6C23DA00722282 /* TaxCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxCalculatorTests.m; sourceTree = "<group>"; };
+		43F69B551A6C23EE00722282 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		43F69B561A6C23EE00722282 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,10 @@
 		43F69B2E1A6C23DA00722282 /* TaxCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				43F69B551A6C23EE00722282 /* RootViewController.h */,
+				43F69B561A6C23EE00722282 /* RootViewController.m */,
 				43F69B331A6C23DA00722282 /* AppDelegate.h */,
 				43F69B341A6C23DA00722282 /* AppDelegate.m */,
-				43F69B361A6C23DA00722282 /* ViewController.h */,
-				43F69B371A6C23DA00722282 /* ViewController.m */,
 				43F69B391A6C23DA00722282 /* Main.storyboard */,
 				43F69B3C1A6C23DA00722282 /* Images.xcassets */,
 				43F69B3E1A6C23DA00722282 /* LaunchScreen.xib */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43F69B381A6C23DA00722282 /* ViewController.m in Sources */,
 				43F69B351A6C23DA00722282 /* AppDelegate.m in Sources */,
 				43F69B321A6C23DA00722282 /* main.m in Sources */,
+				43F69B571A6C23EE00722282 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
